@@ -1,0 +1,11 @@
+{
+	"client_id" : "",
+	"client_secret" : "",
+	"password" : "",
+	"username" : "",
+	"caption" : "Hi #fyp",
+	"allow_comments" : "yes",
+	"allow_duets" : "yes",
+	"allow_stitch" : "yes",
+	"subreddits" : "memes+dankmemes"
+}
