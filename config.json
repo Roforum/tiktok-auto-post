@@ -1,11 +1,11 @@
 {
-	"client_id" : "",
-	"client_secret" : "",
-	"password" : "",
-	"username" : "",
+	"subreddits" : "memes+dankmemes",
+	"reddit_client_id" : "",
+	"reddit_client_secret" : "",
+	"reddit_password" : "",
+	"reddit_username" : "",
 	"caption" : "Hi #fyp",
 	"allow_comments" : "yes",
 	"allow_duets" : "yes",
-	"allow_stitch" : "yes",
-	"subreddits" : "memes+dankmemes"
+	"allow_stitch" : "yes"
 }
