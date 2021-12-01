@@ -11,10 +11,9 @@ options = uc.ChromeOptions()
 #options.headless=True
 #options.add_argument('--headless')
 try:
-    ua = UserAgent()
-    uc.user_agent = ua.random
+    options.add_argument("user-agent=" + str(UserAgent().random))
 except FakeUserAgentError:
-    uc.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36")
 driver = uc.Chrome(options=options)
 driver.maximize_window()
 driver.get("https://www.tiktok.com/login")
